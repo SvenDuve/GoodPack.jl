@@ -3,6 +3,15 @@ module GoodPack
 # Write your package code here.
 export addSome
 
+
+"""
+    SomeType
+
+A type with no fields.
+"""
+mutable struct SomeType end
+
+
 """
     addSome(x, y)
 
@@ -20,12 +29,5 @@ function addSome(x::SomeType, y::SomeType)
     return x + y
 end
 
-
-"""
-    SomeType
-
-A type with no fields.
-"""
-mutable struct SomeType end
 
 end
