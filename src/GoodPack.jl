@@ -11,4 +11,11 @@ Add two numbers.
 addSome(x, y) = x + y
 
 
+"""
+    SomeType
+
+A type with no fields.
+"""
+mutable struct SomeType end
+
 end
